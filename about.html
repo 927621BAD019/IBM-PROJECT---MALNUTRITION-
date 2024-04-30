@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,600;0,800;0,900;1,800&family=Oswald:wght@200;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+  <section class="sub-header">
+      <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="login.html">LOGIN</a></li>
+              <li><a href="">SIGN UP</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+          <h1>About us</h1>
+    </section> 
+    <section class="about-us">
+    <div class="about-col">
+        <h1>We Offer Diet Plans</h1>
+        <p>To get rid off Malnutrition we come up with Diet Plans that are customizable based on your needs.</p>
+        <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+    </section>
+<script>
+   var navLinks = document.getElementById("navLinks") 
+   
+   function showMenu(){
+       navLinks.style.right="0";
+   }
+    function hideMenu(){
+       navLinks.style.right="-200px";
+   }
+</script>
+</body>
+</html>

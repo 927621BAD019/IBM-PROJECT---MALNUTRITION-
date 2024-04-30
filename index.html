@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aleo:wght@600&family=DM+Serif+Display:ital@1&family=Noto+Serif:ital,wght@0,600;0,800;0,900;1,800&family=Oswald:wght@200;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="header">
+      <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="login.html">LOGIN</a></li>
+              <li><a href="">SIGN UP</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+<div class="text-box">
+      <h1>FUEL YOUR BODY WITH HEALTHY FOOD</h1>    
+      <P>A healthy diet helps to protect against malnutrition in all its forms, as well as noncommunicable diseases (NCDs),<br>Including diabetes, heart disease, stroke and cancer.</P>
+    <section id="about"> 
+    <a href="#about" class="hero-btn">Visit Us To Know More</a>
+        </section>
+</div>
+    
+    </section> 
+<!----Dietplan------>
+<section class="Malnutrition">
+      <h1>What is Malnutrition?</h1>
+      <p>Malnutrition is an imbalance in dietary intake. It occurs when a person has too much or too little food or essential nutrients. A person with malnutrition may lack vitamins, minerals, and other essential substances that their body needs to function.</p>
+    <div class="row">
+        <div class="Malnutrition-col">
+        <h3>Lack of vitamin A</h3>
+        <p>Immunity is generally impaired. The younger the patient, the more severe are the effects of vitamin A deficiency. Growth retardation and infections are common among children. Mortality rate can exceed 50% in children with severe vitamin A deficiency. Ocular findings suggest vitamin A deficiency.</p>
+        </div>
+        <div class="Malnutrition-col">
+        <h3>An overall deficiency</h3>
+        <p>Malnutrition can lead to marasmus, which is a severe form of malnutrition. Marasmus is a deficiency of protein and overall energy intake.A person with marasmus will have very little muscle or fat on their body.</p>
+        </div>
+        <div class="Malnutrition-col">
+        <h3>Overnutrition</h3>
+        <p>Overnutrition is another type of malnutrition. It occurs when a person takes in more nutrients than they need. The result may be an accumulation of body fat from the excess nutrients, resulting in overweight or obesity.</p>
+        </div>
+    </div>
+      </section>
+ <section class="Types">
+      <h1>Types Of Malnutrition</h1>
+      <P>There are four types of malnutrition</P>
+     <div class="row">
+     <div class="Types-col">
+         <h3>UNDER MALNUTRITION</h3>
+         <p>The term only refers to receiving inadequate energy due to not consuming enough calories or protein and it doesn't encompass the effects that can occur because an individual isn't absorbing enough nutrients for bodily function. Undernutrition is used to combat this because it covers both nutrient malnutrition and protein malnutrition.</p>
+         <img src="images/under.png">
+         <div class="layer">
+         </div>
+         </div>
+          <div class="Types-col">
+         <h3>MICRO MALNUTRITION</h3>
+         <p>If the calories individuals consume aren't accompanied by adequate nutritional content, they might be a healthy weight or overweight while still starving for nutrients. Almost one-third of the global population suffers from deficiencies in at least one micronutrient, and many individuals have more than one micronutrient deficiency.</p>
+         <img src="images/micro.png">
+         <div class="layer">
+         </div>
+         </div>
+      <div class="Types-col">
+         <h3>CHRONIC MALNUTRITION</h3>
+         <p>Chronic malnutrition can be paired with acute malnutrition. When talking about the impact of malnutrition on communities and individuals, acute and chronic are terms used to talk about different issues. Acute malnutrition is used to discuss the sudden effects of a loss of nutrition. Chronic malnutrition  when a person is malnourished.</p>
+         <img src="images/chronic.png">
+         <div class="layer">
+         </div>
+         </div>
+     </div>
+      </section>  
+<section class="Plan">
+      <h1>The Diet Plan that we offer </h1>
+       <p>To manage and get rid off any kind of malnutrition we offer certain Diet Plans</p>
+    <div class="row">
+    <div class="Plan-col">
+        <h3>Diet Plan for Under Malnutrition</h3>
+        <p> Chart to overcome Under Malnutrition</p>
+        <img src="images/ud.png">
+        
+    </div>
+    <div class="Plan-col">
+        <h3>Diet Plan for Micro Malnutrition</h3>
+        <p>Chart to overcome Micro Malnutrition</p>
+        <img src="images/micro.png">
+        
+    </div>
+    <div class="Plan-col">
+        <h3>Diet Plan for Chronic Malnutrition</h3>
+        <p>Chart to overcome Chronic Malnutrition</p>
+        <img src="images/chronic.png">
+        
+    </div>
+    </div>
+</section>
+<section class="footer">
+      <h4>About us</h4>
+    <p>We offer a proper Diet Plan that help you to overcome your Malnutrition</p>
+</section>
+<script>
+   var navLinks = document.getElementById("navLinks") 
+   
+   function showMenu(){
+       navLinks.style.right="0";
+   }
+    function hideMenu(){
+       navLinks.style.right="-200px";
+   }
+</script>
+
+</body>
+</html>
